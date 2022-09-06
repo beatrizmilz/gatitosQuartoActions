@@ -1,7 +1,7 @@
 {
   "hash": "6bf39fa440b0bc8e21c9892d07fb826a",
   "result": {
-    "markdown": "---\ntitle: \"Exemplo de Actions com Quarto:\"\nsubtitle: \"Gerando fotos de gatinhos!\"\nformat: revealjs\n---\n\n\n## Foto da vez!\n\n2022-09-06 20:56:44\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-revealjs/unnamed-chunk-1-1.png){width=960}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Exemplo de Actions com Quarto:\"\nsubtitle: \"Gerando fotos de gatinhos!\"\nformat: revealjs\n---\n\n\n## Foto da vez!\n\n2022-09-06 20:59:06\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-revealjs/unnamed-chunk-1-1.png){width=960}\n:::\n:::\n",
     "supporting": [
       "index_files"
     ],
