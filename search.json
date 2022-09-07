@@ -4,7 +4,7 @@
     "href": "index.html#foto-da-vez",
     "title": "Exemplo de Actions com Quarto:",
     "section": "Foto da vez!",
-    "text": "Foto da vez!\n2022-09-07 11:19:56"
+    "text": "Foto da vez!\n2022-09-07 11:36:13"
   },
   {
     "objectID": "sigbm.html#abstract",
@@ -39,7 +39,7 @@
     "href": "sigbm.html#download-e-leitura-da-base",
     "title": "Informações sobre as barragens",
     "section": "Download e leitura da base",
-    "text": "Download e leitura da base\nDownload\n\n## ----download-data------------------\n## # Fazer download da base de dados do dia atual:\n## # url para baixar os dados\nurl_request <- \"https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel\"\n##\n## # cria a pasta dados (se não existir)\nfs::dir_create(\"dados\")\n##\n## # funcão que baixa os dados\nhttr::POST(url_request, httr::write_disk(\"dados/sigbm.xlsx\", overwrite = TRUE))\n\nResponse [https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel]\n  Date: 2022-09-07 11:20\n  Status: 200\n  Content-Type: application/vnd.ms-excel\n  Size: 123 kB\n<ON DISK>  /home/runner/work/gatitosQuartoActions/gatitosQuartoActions/dados/sigbm.xlsx"
+    "text": "Download e leitura da base\nDownload\n\n## ----download-data------------------\n## # Fazer download da base de dados do dia atual:\n## # url para baixar os dados\nurl_request <- \"https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel\"\n##\n## # cria a pasta dados (se não existir)\nfs::dir_create(\"dados\")\n##\n## # funcão que baixa os dados\nhttr::POST(url_request, httr::write_disk(\"dados/sigbm.xlsx\", overwrite = TRUE))\n\nResponse [https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel]\n  Date: 2022-09-07 11:36\n  Status: 200\n  Content-Type: application/vnd.ms-excel\n  Size: 123 kB\n<ON DISK>  /home/runner/work/gatitosQuartoActions/gatitosQuartoActions/dados/sigbm.xlsx"
   },
   {
     "objectID": "sigbm.html#barragens-de-mineração-no-brasil",
@@ -116,7 +116,7 @@
     "href": "sigbm/sigbm.html#abstract",
     "title": "Informações sobre as barragens",
     "section": "ABSTRACT",
-    "text": "ABSTRACT\n2022-09-07 11:20:14\n….."
+    "text": "ABSTRACT\n2022-09-07 11:36:30\n….."
   },
   {
     "objectID": "sigbm/sigbm.html#sec-objetivos",
@@ -144,7 +144,7 @@
     "href": "sigbm/sigbm.html#download-e-leitura-da-base",
     "title": "Informações sobre as barragens",
     "section": "Download e leitura da base",
-    "text": "Download e leitura da base\nDownload\n\n## ----download-data------------------\n## # Fazer download da base de dados do dia atual:\n## # url para baixar os dados\nurl_request <- \"https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel\"\n##\n## # cria a pasta dados (se não existir)\nfs::dir_create(\"dados\")\n##\n## # funcão que baixa os dados\nhttr::POST(url_request, httr::write_disk(\"dados/sigbm.xlsx\", overwrite = TRUE))\n\nResponse [https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel]\n  Date: 2022-09-07 11:20\n  Status: 200\n  Content-Type: application/vnd.ms-excel\n  Size: 123 kB\n<ON DISK>  /home/runner/work/gatitosQuartoActions/gatitosQuartoActions/sigbm/dados/sigbm.xlsx"
+    "text": "Download e leitura da base\nDownload\n\n## ----download-data------------------\n## # Fazer download da base de dados do dia atual:\n## # url para baixar os dados\nurl_request <- \"https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel\"\n##\n## # cria a pasta dados (se não existir)\nfs::dir_create(\"dados\")\n##\n## # funcão que baixa os dados\nhttr::POST(url_request, httr::write_disk(\"dados/sigbm.xlsx\", overwrite = TRUE))\n\nResponse [https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel]\n  Date: 2022-09-07 11:36\n  Status: 200\n  Content-Type: application/vnd.ms-excel\n  Size: 123 kB\n<ON DISK>  /home/runner/work/gatitosQuartoActions/gatitosQuartoActions/sigbm/dados/sigbm.xlsx"
   },
   {
     "objectID": "sigbm/sigbm.html#barragens-de-mineração-no-brasil",
