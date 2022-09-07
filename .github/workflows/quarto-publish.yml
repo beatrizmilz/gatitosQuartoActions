@@ -29,6 +29,13 @@ jobs:
           packages: |
             any::rmarkdown
             any::jpeg
+            any::janitor
+            any::tidyverse
+            any::readxl
+            any::fs
+            any::httr
+            any::knitr
+            any::kableExtra
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
